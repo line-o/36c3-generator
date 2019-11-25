@@ -389,6 +389,7 @@ function handleFiles(files){
 function clearSeed(){
 	state = new StateSaver();
 	captionText = [];
+	hope = false; // default to destruction
 	endTime = 0;
 }
 
